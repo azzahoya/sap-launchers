@@ -2,23 +2,16 @@
 <html>
 <body>
 
+<h1>Payment Launcher</h1>
+
+<button onclick="launch()">Open Payment</button>
+
 <script>
-
-window.open(
-'https://vhhcwwp1wd01.sap.hoya.com:44380/sap/bc/gui/sap/its/webgui?~transaction=F110',
-'_blank'
-);
-
-window.open(
-'https://vhhcwwp1wd01.sap.hoya.com:44380/sap/bc/gui/sap/its/webgui?~transaction=FBL1H',
-'_blank'
-);
-
-window.close();
-
+function launch() {
+  window.open('https://vhhcwwp1wd01.sap.hoya.com:44380/sap/bc/gui/sap/its/webgui?~transaction=F110', '_blank');
+  window.open('https://vhhcwwp1wd01.sap.hoya.com:44380/sap/bc/gui/sap/its/webgui?~transaction=FBL1H', '_blank');
+}
 </script>
-
-Launching...
 
 </body>
 </html>
